@@ -3,7 +3,7 @@
 // Simple script for get JSON data from an iTunes store
 // Made by dreamnet (GKI) on 2013-02-26 
 
-function crawl_data($id, $ret=false) { // cycles trough stores and returns JSON data array for given iTunes ID if found, else returns false
+function getiTunesData($id, $ret=false) { // cycles trough stores and returns JSON data array for given iTunes ID if found, else returns false
 
     $stores = array( // array with iTunes stores (that I know) and there country codes
         // Main english stores
@@ -182,10 +182,8 @@ function crawl_data($id, $ret=false) { // cycles trough stores and returns JSON 
         } else {
             $url = 'https://itunes.apple.com/lookup?id='.$id;
         }
-        
         $json = file_get_contents($url, 0, null, null);
         $data = json_decode($json, true);
-
         if (($data['resultCount'] == 1) && ($data['results'][0]['kind'] == 'software')) // make sure we are getting data for an app
         {
             $ret = $data; break; // valid data found
@@ -193,7 +191,5 @@ function crawl_data($id, $ret=false) { // cycles trough stores and returns JSON 
             $ret = false; // no valid data found
         }
     }
-    
     return $ret;
-
 }
