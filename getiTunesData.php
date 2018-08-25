@@ -25,13 +25,13 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		// Asian stores
 		array("cn", "China"),				// China
 		array("jp", "Japan"),				// Japan
-		array("th", "Thailand"),				// Thailand
+		array("th", "Thailand"),			// Thailand
 		array("ph", "Philippines"),			// Philippines
 		array("tw", "Taiwan"),				// Taiwan
 		array("vn", "Vietnam"),				// Vietnam
 		// the rest of the world
 		array("ag", "Antigua & Barbuda"),		// Antigua & Barbuda
-		array("ai", "Anguilla"),				// Anguilla
+		array("ai", "Anguilla"),			// Anguilla
 		array("ar", "Argentina"),			// Argentina
 		array("am", "Armenia"),				// Armenia
 		array("ao", "Angola"),				// Angola
@@ -40,7 +40,7 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		array("al", "Albania"),				// Albania
 		array("bs", "Bahamas"),				// Bahamas
 		array("bh", "Bahrain"),				// Bahrain
-		array("bb", "Barbados"),				// Barbados
+		array("bb", "Barbados"),			// Barbados
 		array("be", "Belgium"),				// Belgium
 		array("bd", "Bangladesh"),			// Bangladesh
 		array("by", "Belarus"),				// Belarus
@@ -48,17 +48,17 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		array("bm", "Bermuda"),				// Bermuda
 		array("bj", "Benin"),				// Benin
 		array("bt", "Bhutan"),				// Bhutan
-		array("bw", "Botswana"),				// Botswana
+		array("bw", "Botswana"),			// Botswana
 		array("bo", "Bolivia"),				// Bolivia
 		array("br", "Brazil"),				// Brazil
 		array("vg", "British Virgin Islands"),		// British Virgin Islands
 		array("bn", "Brunei Darussalam"),		// Brunei Darussalam
-		array("bg", "Bulgaria"),				// Bulgaria
+		array("bg", "Bulgaria"),			// Bulgaria
 		array("bf", "Burkina Faso"),			// Burkina Faso
-		array("kh", "Cambodia"),				// Cambodia
+		array("kh", "Cambodia"),			// Cambodia
 		array("cv", "Cape Verde"),			// Cape Verde
 		array("ky", "Cayman Islands"),			// Cayman Islands
-		array("co", "Colombia"),				// Colombia
+		array("co", "Colombia"),			// Colombia
 		array("cl", "Chile"),				// Chile
 		array("td", "Chad"),				// Chad
 		array("cr", "Costa Rica"),			// Costa Rica
@@ -66,7 +66,7 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		array("cy", "Cyprus"),				// Cyprus
 		array("ci", "Cote D Ivoire"),			// Cote D Ivoire
 		array("hr", "Croatia"),				// Croatia
-		array("dm", "Dominica"),				// Dominica
+		array("dm", "Dominica"),			// Dominica
 		array("ec", "Ecuador"),				// Ecuador
 		array("dk", "Denmark"),				// Denmark
 		array("sv", "El Salvador"),			// El Salvador
@@ -82,7 +82,7 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		array("gw", "Guinea-Bissau"),			// Guinea-Bissau
 		array("gt", "Guatemala"),			// Guatemala
 		array("hu", "Hungary"),				// Hungary
-		array("hn", "Honduras"),				// Honduras
+		array("hn", "Honduras"),			// Honduras
 		array("gy", "Guyana"),				// Guyana
 		array("in", "India"),				// India
 		array("id", "Indonesia"),			// Indonesia
@@ -103,15 +103,15 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		array("mo", "Macao"),				// Macao
 		array("li", "Liechtenstein"),			// Liechtenstein
 		array("lu", "Luxembourg"),			// Luxembourg
-		array("my", "Malaysia"),				// Malaysia
+		array("my", "Malaysia"),			// Malaysia
 		array("mg", "Madagascar"),			// Madagascar
 		array("mk", "Macedonia"),			// Macedonia
 		array("mt", "Malta"),				// Malta
 		array("mw", "Malawi"),				// Malawi
-		array("mv", "Maldives"),				// Maldives
+		array("mv", "Maldives"),			// Maldives
 		array("ml", "Mali"),				// Mali
 		array("mu", "Mauritius"),			// Mauritius
-		array("mn", "Mongolia"),				// Mongolia
+		array("mn", "Mongolia"),			// Mongolia
 		array("fm", "Micronesi"),			// Micronesi
 		array("mr", "Mauritania"),			// Mauritania
 		array("mz", "Mozambique"),			// Mozambique
@@ -124,14 +124,14 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		array("ng", "Nigeria"),				// Nigeria
 		array("ne", "Niger"),				// Niger
 		array("no", "Norway"),				// Norway
-		array("pk", "Pakistan"),				// Pakistan
+		array("pk", "Pakistan"),			// Pakistan
 		array("om", "Oman"),				// Oman
 		array("pa", "Panama"),				// Panama
-		array("pg", "Papua New Guinea"),			// Papua New Guinea
-		array("py", "Paraguay"),				// Paraguay
+		array("pg", "Papua New Guinea"),		// Papua New Guinea
+		array("py", "Paraguay"),			// Paraguay
 		array("pe", "Peru"),				// Peru
 		array("pw", "Palau"),				// Palau
-		array("pt", "Portugal"),				// Portugal
+		array("pt", "Portugal"),			// Portugal
 		array("qa", "Qatar"),				// Qatar
 		array("kr", "Republic of Korea"),		// Republic of Korea
 		array("md", "Republic of Moldova"),		// Republic of Moldova
@@ -141,16 +141,16 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		array("sa", "Saudi Arabia"),			// Saudi Arabia
 		array("st", "Sao Tome and Principe"),		// Sao Tome and Principe
 		array("rs", "Serbia"),				// Serbia
-		array("sk", "Slovakia"),				// Slovakia
+		array("sk", "Slovakia"),			// Slovakia
 		array("sg", "Singapore"),			// Singapore
 		array("sn", "Senegal"),				// Senegal
 		array("es", "Spain"),				// Spain
-		array("si", "Slovenia"),				// Slovenia
+		array("si", "Slovenia"),			// Slovenia
 		array("za", "South Africa"),			// South Africa
 		array("lk", "Sri Lanka"),			// Sri Lanka
 		array("sc", "Seychelles"),			// Seychelles
 		array("sb", "Solomon Islands"),			// Solomon Islands
-		array("sr", "Suriname"),				// Suriname
+		array("sr", "Suriname"),			// Suriname
 		array("sz", "Swaziland"),			// Swaziland
 		array("sl", "Sierra Leone"),			// Sierra Leone
 		array("vc", "St. Vincent & T. G."),		// St. Vincent & The Grenadines
@@ -158,7 +158,7 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		array("lc", "St. Lucia"),			// St. Lucia
 		array("tj", "Tajikistan"),			// Tajikistan
 		array("kn", "St. Kitts & Nevis"),		// St. Kitts & Nevis
-		array("tz", "Tanzania"),				// Tanzania
+		array("tz", "Tanzania"),			// Tanzania
 		array("tt", "Trinidad & Tobago"),		// Trinidad & Tobago
 		array("tn", "Tunisia"),				// Tunisia
 		array("tr", "Turkey"),				// Turkey
@@ -170,7 +170,7 @@ function getiTunesData($id, $ret=false) { // cycles trough stores and returns JS
 		array("ve", "Venezuela"),			// Venezuela
 		array("uy", "Uruguay"),				// Uruguay
 		array("ye", "Yemen"),				// Yemen
-		array("zw", "Zimbabwe"),				// Zimbabwe
+		array("zw", "Zimbabwe"),			// Zimbabwe
 		array("tc", "Turks & Caicos")			// Turks & Caicos
 	);
 
